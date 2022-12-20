@@ -13,7 +13,7 @@ public class Main {
     
     public static void main(String[] args) {
         
-        Set<Integer> values = new HashSet<>();
+        Set<Integer> values = new HashSet<>(); //If we want the output in ascending order, we can use 'TreeSet' instead of 'HashSet'.
         
         System.out.println(values.add(5));
         System.out.println(values.add(3)); //no duplicate elements
